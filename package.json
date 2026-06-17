@@ -1,0 +1,14 @@
+{
+  "name": "vm-detector-back",
+  "version": "1.0.0",
+  "description": "Express + SQLite backend that detects whether a virtual machine is talking to it, based on per-HWID behavioral statistics",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.8.1",
+    "express": "^4.21.2"
+  }
+}
